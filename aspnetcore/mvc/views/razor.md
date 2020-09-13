@@ -139,7 +139,7 @@ Razor 支持 c #，并使用 `@` 符号从 HTML 转换为 c #。 Razor 计算 c 
 
 HTML 在浏览器中显示为纯文本：
 
-&lt;跨越 &gt; Hello World &lt; /span&gt;
+&lt;span &gt; Hello World &lt; /span&gt;
 
 `HtmlHelper.Raw` 输出不进行编码，但呈现为 HTML 标记。
 
